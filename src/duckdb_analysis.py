@@ -9,6 +9,7 @@ import duckdb
 from botocore.config import Config
 
 from selection import is_python_developer
+from profiling import profile_run
 
 
 BUCKET = "vacancies"
@@ -278,4 +279,5 @@ def run_analysis():
 
 
 if __name__ == "__main__":
-    run_analysis()
+    with profile_run("duckdb"):
+        run_analysis()

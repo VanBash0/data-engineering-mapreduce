@@ -1,0 +1,11 @@
+{
+  "source": "s3://vacancies/it_vacancies_2024.csv",
+  "total_rows": 229388,
+  "selected_vacancies": 5608,
+  "chunk_size": 500,
+  "chunks_processed": 459,
+  "unique_skills": 2257,
+  "unique_pairs": 34184,
+  "unique_triples": 231778,
+  "results_prefix": "s3://vacancies/results/mapreduce/chunk_size_500/"
+}

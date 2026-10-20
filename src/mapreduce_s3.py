@@ -12,6 +12,7 @@ import boto3
 from botocore.config import Config
 
 from selection import is_python_developer
+from profiling import profile_run
 
 
 BUCKET = "vacancies"
@@ -360,10 +361,11 @@ def main():
     if args.chunk_size <= 0:
         parser.error("--chunk-size должен быть положительным")
 
-    run_mapreduce(
-        chunk_size=args.chunk_size,
-        should_upload=not args.no_upload,
-    )
+    with profile_run("mapreduce", chunk_size=args.chunk_size, upload=not args.no_upload):
+        run_mapreduce(
+            chunk_size=args.chunk_size,
+            should_upload=not args.no_upload,
+        )
 
 
 if __name__ == "__main__":

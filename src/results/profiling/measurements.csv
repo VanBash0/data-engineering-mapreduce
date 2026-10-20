@@ -1,0 +1,13 @@
+started_at,algorithm,chunk_size,upload_results,duration_seconds,peak_rss_mb,memory_sample_interval_seconds,status,error
+2026-10-20T21:38:35+03:00,mapreduce,100,True,42.557,73.59,0.05,success,
+2026-10-20T21:39:19+03:00,mapreduce,100,True,50.178,73.68,0.05,success,
+2026-10-20T21:40:10+03:00,mapreduce,100,True,53.378,73.71,0.05,success,
+2026-10-20T21:41:17+03:00,mapreduce,500,True,47.13,73.82,0.05,success,
+2026-10-20T21:42:05+03:00,mapreduce,500,True,43.716,73.98,0.05,success,
+2026-10-20T21:42:49+03:00,mapreduce,500,True,40.635,74.21,0.05,success,
+2026-10-20T21:43:59+03:00,mapreduce,1000,True,36.928,75.03,0.05,success,
+2026-10-20T21:44:36+03:00,mapreduce,1000,True,39.961,74.88,0.05,success,
+2026-10-20T21:45:17+03:00,mapreduce,1000,True,38.524,73.86,0.05,success,
+2026-10-20T21:50:28+03:00,duckdb,,,41.741,229.64,0.05,success,
+2026-10-20T21:51:11+03:00,duckdb,,,28.734,235.2,0.05,success,
+2026-10-20T21:51:40+03:00,duckdb,,,32.42,233.32,0.05,success,
