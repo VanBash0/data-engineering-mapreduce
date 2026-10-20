@@ -1,0 +1,309 @@
+{
+  "source": "s3://vacancies/it_vacancies_2024.csv",
+  "method": "Каждый регион представлен одним основным городом; учитываются вакансии, прошедшие is_python_developer.",
+  "regions": {
+    "Приморский край": {
+      "city": "Владивосток",
+      "vacancies": 38,
+      "vacancies_with_salary": 29,
+      "vacancies_without_salary": 9,
+      "median_salary_rub": 95700.0,
+      "top_skills": [
+        {
+          "skill": "python",
+          "vacancies": 31,
+          "percent": 81.6
+        },
+        {
+          "skill": "git",
+          "vacancies": 17,
+          "percent": 44.7
+        },
+        {
+          "skill": "linux",
+          "vacancies": 10,
+          "percent": 26.3
+        },
+        {
+          "skill": "docker",
+          "vacancies": 9,
+          "percent": 23.7
+        },
+        {
+          "skill": "django framework",
+          "vacancies": 8,
+          "percent": 21.1
+        },
+        {
+          "skill": "c/c++",
+          "vacancies": 7,
+          "percent": 18.4
+        },
+        {
+          "skill": "cmake",
+          "vacancies": 7,
+          "percent": 18.4
+        },
+        {
+          "skill": "gitlab",
+          "vacancies": 7,
+          "percent": 18.4
+        },
+        {
+          "skill": "matlab",
+          "vacancies": 7,
+          "percent": 18.4
+        },
+        {
+          "skill": "javascript",
+          "vacancies": 7,
+          "percent": 18.4
+        }
+      ],
+      "top_pairs": [
+        {
+          "pair": "git + python",
+          "vacancies": 17
+        },
+        {
+          "pair": "linux + python",
+          "vacancies": 10
+        },
+        {
+          "pair": "docker + python",
+          "vacancies": 9
+        },
+        {
+          "pair": "git + linux",
+          "vacancies": 8
+        },
+        {
+          "pair": "django framework + git",
+          "vacancies": 8
+        },
+        {
+          "pair": "django framework + python",
+          "vacancies": 8
+        },
+        {
+          "pair": "c/c++ + cmake",
+          "vacancies": 7
+        },
+        {
+          "pair": "c/c++ + git",
+          "vacancies": 7
+        },
+        {
+          "pair": "c/c++ + gitlab",
+          "vacancies": 7
+        },
+        {
+          "pair": "c/c++ + linux",
+          "vacancies": 7
+        }
+      ]
+    },
+    "Пермский край": {
+      "city": "Пермь",
+      "vacancies": 48,
+      "vacancies_with_salary": 20,
+      "vacancies_without_salary": 28,
+      "median_salary_rub": 164500.0,
+      "top_skills": [
+        {
+          "skill": "python",
+          "vacancies": 41,
+          "percent": 85.4
+        },
+        {
+          "skill": "postgresql",
+          "vacancies": 22,
+          "percent": 45.8
+        },
+        {
+          "skill": "sql",
+          "vacancies": 18,
+          "percent": 37.5
+        },
+        {
+          "skill": "git",
+          "vacancies": 15,
+          "percent": 31.2
+        },
+        {
+          "skill": "docker",
+          "vacancies": 14,
+          "percent": 29.2
+        },
+        {
+          "skill": "javascript",
+          "vacancies": 12,
+          "percent": 25.0
+        },
+        {
+          "skill": "redis",
+          "vacancies": 10,
+          "percent": 20.8
+        },
+        {
+          "skill": "django framework",
+          "vacancies": 10,
+          "percent": 20.8
+        },
+        {
+          "skill": "ооп",
+          "vacancies": 8,
+          "percent": 16.7
+        },
+        {
+          "skill": "flask",
+          "vacancies": 8,
+          "percent": 16.7
+        }
+      ],
+      "top_pairs": [
+        {
+          "pair": "postgresql + python",
+          "vacancies": 21
+        },
+        {
+          "pair": "python + sql",
+          "vacancies": 18
+        },
+        {
+          "pair": "git + python",
+          "vacancies": 15
+        },
+        {
+          "pair": "postgresql + sql",
+          "vacancies": 15
+        },
+        {
+          "pair": "docker + python",
+          "vacancies": 14
+        },
+        {
+          "pair": "javascript + python",
+          "vacancies": 12
+        },
+        {
+          "pair": "docker + git",
+          "vacancies": 10
+        },
+        {
+          "pair": "django framework + python",
+          "vacancies": 10
+        },
+        {
+          "pair": "docker + postgresql",
+          "vacancies": 9
+        },
+        {
+          "pair": "python + redis",
+          "vacancies": 9
+        }
+      ]
+    },
+    "Калининградская область": {
+      "city": "Калининград",
+      "vacancies": 30,
+      "vacancies_with_salary": 18,
+      "vacancies_without_salary": 12,
+      "median_salary_rub": 142647.5,
+      "top_skills": [
+        {
+          "skill": "python",
+          "vacancies": 27,
+          "percent": 90.0
+        },
+        {
+          "skill": "postgresql",
+          "vacancies": 18,
+          "percent": 60.0
+        },
+        {
+          "skill": "sql",
+          "vacancies": 13,
+          "percent": 43.3
+        },
+        {
+          "skill": "git",
+          "vacancies": 8,
+          "percent": 26.7
+        },
+        {
+          "skill": "mongodb",
+          "vacancies": 7,
+          "percent": 23.3
+        },
+        {
+          "skill": "redis",
+          "vacancies": 7,
+          "percent": 23.3
+        },
+        {
+          "skill": "django framework",
+          "vacancies": 5,
+          "percent": 16.7
+        },
+        {
+          "skill": "docker",
+          "vacancies": 5,
+          "percent": 16.7
+        },
+        {
+          "skill": "django",
+          "vacancies": 4,
+          "percent": 13.3
+        },
+        {
+          "skill": "kubernetes",
+          "vacancies": 4,
+          "percent": 13.3
+        }
+      ],
+      "top_pairs": [
+        {
+          "pair": "postgresql + python",
+          "vacancies": 18
+        },
+        {
+          "pair": "python + sql",
+          "vacancies": 13
+        },
+        {
+          "pair": "postgresql + sql",
+          "vacancies": 10
+        },
+        {
+          "pair": "git + python",
+          "vacancies": 8
+        },
+        {
+          "pair": "mongodb + postgresql",
+          "vacancies": 7
+        },
+        {
+          "pair": "mongodb + python",
+          "vacancies": 7
+        },
+        {
+          "pair": "python + redis",
+          "vacancies": 7
+        },
+        {
+          "pair": "postgresql + redis",
+          "vacancies": 6
+        },
+        {
+          "pair": "git + sql",
+          "vacancies": 5
+        },
+        {
+          "pair": "django framework + python",
+          "vacancies": 5
+        }
+      ]
+    }
+  }
+}
