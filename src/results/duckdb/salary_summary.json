@@ -1,0 +1,19 @@
+{
+  "source": "s3://vacancies/it_vacancies_2024.csv",
+  "total_rows": 229388,
+  "selected_vacancies": 5608,
+  "vacancies_with_salary": 2153,
+  "skipped_unknown_currency": 0,
+  "overall_median_salary_rub": 150000.0,
+  "minimum_vacancies_per_combination": 5,
+  "exchange_rates_to_rub": {
+    "RUR": 1.0,
+    "RUB": 1.0,
+    "USD": 82.8504,
+    "EUR": 93.2316,
+    "KZT": 0.183249,
+    "BYR": 27.6629,
+    "BYN": 27.6629
+  },
+  "salary_method": "Среднее границ диапазона; если дана одна граница — используется она. Годовой прогрессивный НДФЛ применяется только при gross=true. При gross=false и неизвестном gross налог не пересчитывается."
+}
